@@ -1,0 +1,26 @@
+.footer {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  // border-top: 2px solid rgb(158, 173, 176);
+  // background: #404d4c;
+  &-left {
+    width: 100%;
+  }
+  &-right {
+    width: calc(100% - 320px);
+    height: 100%;
+    background-color: rgb(253, 243, 211);
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    .login {
+      width: 100px;
+      height: 32px;
+      background-color: rgb(247, 195, 37);
+      border-radius: 0;
+      margin-left: auto;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,607 @@
+.commHeader {
+  width: 100%;
+  // height: 214px;
+  padding: 24px;
+  background-color: #111e1e;
+  border-radius: 8px;
+  &-info {
+    display: flex;
+    background: url("@statics/images/home_bt.png") no-repeat;
+    background-size: 100% 100%;
+    &-left {
+      width: 373px;
+      // padding-right: 98px;
+      border-right: 1px solid rgba(104, 218, 164, 0.2);
+      .cil-title {
+        display: flex;
+        align-items: center;
+        .iconX {
+          width: 17px;
+          height: 15px;
+          // vertical-align: middle;
+        }
+        span {
+          font-size: 16px;
+          font-family: Kumbh Sans, Kumbh Sans;
+          font-weight: 600;
+          color: #c9fdd9;
+          line-height: 19px;
+          // border-bottom: 1px solid #c9fdd9;
+          margin-left: 10px;
+        }
+        h6 {
+          font-size: 34px;
+          font-family: Work Sans, Work Sans;
+          font-weight: bold;
+          color: #c9fdd9;
+          line-height: 40px;
+          text-align: left;
+        }
+      }
+      .cil-avatar {
+        // margin-top: 16px;
+        .avatar {
+          width: 63px;
+          height: 63px;
+          border-radius: 50%;
+          margin-right: 14px;
+        }
+      }
+    }
+    &-right {
+      width: calc(100% - 373px);
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      .cir-right {
+        &-top {
+          display: flex;
+          margin-right: 0 !important;
+          &-left {
+            margin-right: 50px;
+          }
+        }
+        .bsubButton {
+          width: 100%;
+          height: 48px;
+          background: #2ddda4;
+          border-radius: 10px 10px 10px 10px;
+          // margin-top: 27px;
+          text-align: center;
+          line-height: 48px;
+          color: #fff;
+          font-size: 18px;
+          font-family: Kumbh Sans, Kumbh Sans;
+          font-weight: 600;
+          color: #000300;
+          cursor: pointer;
+          margin-top: 3px;
+        }
+        .bsubButton:hover {
+          opacity: 0.85;
+        }
+        .traderKeys {
+          background-color: #c9fdd9 !important;
+        }
+      }
+    }
+    .cir-right {
+      width: 50%;
+      &-top {
+        width: 100% !important;
+      }
+    }
+    .cir-left {
+      // width: 400px;
+      // width: 50%;
+      margin-right: 6px;
+      // padding-top: 36px;
+      &-top {
+        margin-bottom: 20px;
+        text-align: left;
+        margin-right: 70px;
+        p {
+          font-size: 16px;
+          font-family: Kumbh Sans, Kumbh Sans;
+          // font-weight: 600;
+          color: #c9fdd9;
+          line-height: 19px;
+          // margin-bottom: 20px;
+        }
+        div {
+          font-size: 38px;
+          font-family: Kumbh Sans, Kumbh Sans;
+          font-weight: bold;
+          color: #2ddda4;
+          line-height: 47px;
+        }
+        .priceKeys {
+          color: #fff !important;
+        }
+      }
+    }
+    .collectInfo {
+      position: absolute;
+      display: flex;
+      right: 24px;
+      top: 20px;
+      justify-content: center;
+    }
+    .cil-list {
+      display: flex;
+      width: 100%;
+      margin-top: 27px;
+      &-item {
+        // margin-right: 70px;
+        &-imgBox {
+          display: flex;
+          margin-bottom: 6px;
+          align-items: center;
+          img {
+            width: 14px;
+            height: 15px;
+          }
+          span {
+            font-size: 16px;
+            font-family: Kumbh Sans, Kumbh Sans;
+            font-weight: 400;
+            color: rgba(187, 255, 214, 0.6);
+            line-height: 19px;
+            margin-left: 14px;
+          }
+        }
+        p {
+          text-align: left;
+          font-size: 22px;
+          font-family: Inter, Inter;
+          font-weight: bold;
+          color: rgba(187, 255, 214, 0.6);
+          line-height: 24px;
+        }
+      }
+      .nameItem {
+        // width: 50% !important;
+        margin-right: 24px;
+      }
+      .nameItem:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .iconfont {
+    color: rgba(187, 255, 214, 0.6);
+  }
+  .issueKeys {
+    width: 264px;
+    font-family: Kumbh Sans, Kumbh Sans;
+    font-weight: 400;
+    color: rgba(187, 255, 214, 0.6);
+    line-height: 19px;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .issueKeysBtn {
+    background: #c9fdd9 !important;
+    width: 264px !important;
+    height: 65px !important;
+    line-height: 56px !important;
+    color: #000300 !important;
+  }
+}
+.rankingBox {
+  margin-top: 24px;
+  padding: 111px 75px;
+  background-color: #111e1e;
+  border-radius: 8px;
+  .title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 6px;
+    font-size: 16px;
+    font-family: Kumbh Sans, Kumbh Sans;
+    color: #c9fdd9;
+    line-height: 19px;
+  }
+  .buy {
+    width: 322px;
+    height: 48px;
+    background-color: #c9fdd9 !important;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1;
+    font-size: 18px;
+    font-family: Kumbh Sans, Kumbh Sans;
+    color: #000300 !important;
+    line-height: 21px;
+    border: none;
+    margin-top: 43px;
+    font-weight: 600;
+  }
+  .buy:hover {
+    opacity: 0.85;
+  }
+  .buy.tradeKeys {
+    background-color: #2ddda4 !important;
+  }
+}
+.hidden {
+  width: 48%;
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  span {
+    // width: 80%;
+    display: inline-block;
+    // white-space: nowrap;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+  }
+  img {
+    height: 16px;
+  }
+}
+.anticon.cancel svg {
+  font-size: 16px !important;
+}
+
+.ant-input-number-outlined .ant-input-number-handler-wrap {
+  // background: transparent !important;
+  border: none !important;
+}
+
+.ant-input-number .ant-input-number-handler {
+  border-inline-start: none !important;
+}
+
+.ant-input-number-outlined
+  .ant-input-number-handler-wrap
+  .ant-input-number-handler-down {
+  border-block-start: none !important;
+}
+
+.ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-up {
+  // align-items: end !important;
+}
+
+.ant-input-number
+  .ant-input-number-handler-wrap
+  .ant-input-number-handler-down {
+  // align-items: start !important;
+}
+
+.ant-input-number-outlined:hover,
+.ant-input-number-outlined:focus,
+.ant-input-number-outlined:focus-within {
+  border-color: transparent;
+}
+
+.modalTitle {
+  img {
+    margin-right: 12px;
+  }
+}
+.traderBox {
+  display: flex;
+  margin-top: 38px;
+  &-left {
+    width: 256px;
+    height: 256px;
+    // background: #152121;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px 10px 10px 10px;
+    }
+  }
+  &-right {
+    width: calc(100% - 256px);
+    margin-left: 20px;
+    font-family: Kumbh Sans, Kumbh Sans;
+    text-transform: none;
+    font-style: normal;
+    text-align: left;
+    &-total {
+      font-weight: 600;
+      font-size: 18px;
+      color: #bbffd6;
+      line-height: 21px;
+      // margin-top: 4px;
+    }
+    &-money {
+      font-weight: 500;
+      font-size: 16px;
+      color: #c9fdd9;
+      line-height: 19px;
+      align-items: center;
+      margin: 16px 0 78px;
+      img {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+      }
+    }
+    &-wallet {
+      display: flex;
+      font-weight: 400;
+      font-size: 12px;
+      color: rgba(187, 255, 214, 0.6);
+      line-height: 14px;
+    }
+    .custom-input-number {
+      margin: 8px 0 11px;
+      background: #152121;
+      border-radius: 10px;
+    }
+    .ant-input-number-outlined .ant-input-number-handler-wrap {
+      background-color: transparent !important;
+    }
+    .ant-input-number .ant-input-number-handler {
+      border-inline-start: none !important;
+    }
+    .ant-input-number-outlined
+      .ant-input-number-handler-wrap
+      .ant-input-number-handler-down {
+      border-block-start: none !important;
+    }
+    .ant-input-outlined,
+    .ant-input-number-outlined {
+      height: 42px !important;
+      line-height: 42px !important;
+    }
+    .ant-input-number-handler {
+      width: 42px !important;
+      height: 42px !important;
+    }
+    .ant-input-number-handler-wrap {
+      width: 42px !important;
+      height: 42px !important;
+    }
+    .commBtn {
+      height: 42px !important;
+      line-height: 42px !important;
+    }
+  }
+}
+
+.keyPrice-box {
+  margin-top: 23px;
+  padding: 22px 16px 21px;
+  background: #152121;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 17px;
+  &-item {
+    display: flex;
+    font-family: Kumbh Sans, Kumbh Sans;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c9fdd9;
+    margin-bottom: 20px;
+    span:nth-child(2) {
+      margin-left: auto;
+    }
+  }
+  &-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.keysList {
+  height: 490px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  overflow-y: auto;
+  justify-content: space-between;
+  padding: 0 24.5px 20px;
+  &-item {
+    width: 185px;
+    cursor: pointer;
+    margin-right: 49px;
+    margin-bottom: 24px;
+    font-family: Kumbh Sans, Kumbh Sans;
+    &-imgBox {
+      height: 231px;
+      border-radius: 10px;
+      position: relative;
+      background: #152121;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+      }
+      &-p {
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        bottom: 0;
+        background: #ff4d00;
+        border-radius: 0px 0px 10px 10px;
+        font-weight: bold;
+        font-size: 18px;
+        color: #152121;
+        line-height: 30px;
+        text-align: center;
+        display: none;
+      }
+    }
+    &-imgBox:hover p {
+      display: block;
+    }
+    .purchased {
+      font-weight: 400;
+      font-size: 14px;
+      color: #c9fdd9;
+      line-height: 16px;
+      text-align: center;
+      margin: 10px 0 6px;
+    }
+    .position {
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  &-item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+.keysList::-webkit-scrollbar {
+  width: 0px;
+  /* 设置滚动条宽度 */
+}
+
+.keysList::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  /* 设置滚动条 thumb 颜色 */
+  border-radius: 10px;
+  /* 设置滚动条 thumb 圆角 */
+}
+
+.keysList::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* 设置滚动条 track 颜色 */
+  border-radius: 10px;
+  /* 设置滚动条 track 圆角 */
+}
+
+.keysListModal .ant-modal-content {
+  padding-bottom: 0 !important;
+}
+
+.keyPrice-box-item-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.keyPrice-box-item-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.sell-modal-title {
+  font-family: Kumbh Sans, Kumbh Sans;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2ddda4;
+  line-height: 19px;
+  text-align: center;
+  margin: 29px 0 17px;
+}
+
+.anticon svg {
+  width: 17px;
+  height: 17px;
+  margin-left: 7px;
+}
+
+.ant-tooltip {
+  max-width: 495px;
+  .ant-tooltip-inner {
+    padding: 16px;
+    .tooltipBox {
+      font-family: Kumbh Sans, Kumbh Sans;
+      text-align: left;
+      color: #c9fdd9;
+      h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.successBox {
+  width: 130px;
+  height: 173px;
+  margin: auto;
+  position: relative;
+  background: #11171e;
+  border-radius: 10px 0px 10px 10px;
+  .ethImg {
+    // width: 100%;
+    // height: 100%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+  .animationBox {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 10px 10px;
+  }
+}
+
+.modal .sellKeys {
+  background: #ff4d00 !important;
+}
+
+.disabledButton.ant-btn-primary {
+  background-color: rgba(45, 221, 164, 0.5) !important;
+  border-color: transparent !important;
+}
+
+.disabledBox.ant-btn-default {
+  background-color: rgba(255, 77, 0, 0.5) !important;
+  border-color: transparent !important;
+}
+.marginLeft {
+  margin-left: 70px;
+}
+
+// @media screen and (min-width: 1650px) and (max-width: 1920px) {
+//   .commHeader-info-left {
+//     width: 423px !important;
+//   }
+//   .commHeader-info .cil-list .nameItem {
+//     margin-right: 42.5px;
+//   }
+//   .commHeader-info-right {
+//     padding-left: 70px;
+//   }
+//   .commHeader-info .cir-left-top {
+//     margin-right: 130px;
+//   }
+//   .marginLeft {
+//     margin-left: 130px;
+//   }
+// }
+
+// @media (max-width: 1550px) {
+//   .commHeader-info .cir-left-top div {
+//     font-size: 32px;
+//   }
+//   .commHeader-info .cil-list-item p {
+//     font-size: 16px;
+//   }
+//   .commHeader-info {
+//     padding: 21px 15px 27px;
+//   }
+//   .commHeader-info .cir-left {
+//     margin-right: 14px;
+//   }
+//   .commHeader-info-right {
+//     padding-left: 20px;
+//   }
+//   .commHeader-info .cil-list-item-imgBox span,
+//   .issueKeys {
+//     font-size: 14px;
+//   }
+// }
+// @media (max-width: 1345px) {
+//   .commHeader-info .cil-list-item-imgBox span,
+//   .issueKeys {
+//     font-size: 12px;
+//   }
+//   .commHeader-info .cir-left-top div {
+//     font-size: 24px;
+//   }
+// }

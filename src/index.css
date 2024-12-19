@@ -1,0 +1,115 @@
+@import "@/styles/comm.scss";
+@import "@/styles/media.scss";
+@import url("@statics/fonts/iconfont.css");
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/fonts/Kumbh Sans Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Kumbh Sans SemiBold";
+  src: url("/fonts/Kumbh Sans SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/fonts/KumbhSans-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Bold.ttf") format("truetype");
+}
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #404d4c;
+  font-family: Work Sans, Work Sans;
+  /* overflow: hidden; */
+  /* visibility: hidden; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.pageTitle {
+  text-align: left;
+  font-size: 34px;
+  font-family: Work Sans, Work Sans;
+  font-weight: bold;
+  color: #c9fdd9;
+  line-height: 40px;
+  margin: 0 0 20px 26px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.ant-layout.ant-layout-has-sider {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 110px);
+  overflow: hidden;
+}
+
+.ant-layout .ant-layout-sider-trigger {
+  display: none;
+}
+
+.ant-menu-inline {
+  padding: 0 20px;
+  padding-left: 12px;
+}
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover {
+  /* background-color: transparent; */
+  background: #2ddda4 !important;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.saderBox .ant-menu-dark .ant-menu-item.ant-menu-item-selected .ant-menu-title-content {
+  /* color: rgb(247, 195, 37) !important; */
+  font-size: 16px;
+  font-family: Kumbh Sans, Kumbh Sans;
+  font-weight: 500;
+  color: #152121 !important;
+  line-height: 19px;
+}
+
+.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):active {
+  /* background-color: transparent !important; */
+  background: #2ddda4;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.ant-modal-root .ant-modal-wrap {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.muneIcon{
+  color: #C9FDD9 !important;
+}
+
+.ant-menu-item-selected .muneIcon{
+  color: #152121 !important;
+}
+
+.ant-modal .ant-modal-close:hover{
+  background-color: transparent !important;
+}

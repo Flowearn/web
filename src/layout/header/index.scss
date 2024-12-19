@@ -1,0 +1,101 @@
+.header {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  background: #111e1e;
+  padding: 0 !important;
+  // border-bottom: 2px solid rgb(158, 173, 176);
+  &-left {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    p {
+      font-size: 32px;
+      font-family: Work Sans, Work Sans;
+      font-weight: bold;
+      color: #c9fdd9;
+      line-height: 40px;
+      // padding-left: 42px;
+      text-align: center;
+      margin: 52px 0 30px;
+    }
+  }
+  &-right {
+    width: calc(100% - 300px);
+    height: 100%;
+    background-color: #404d4c;
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    .loginBtn {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+    }
+    .login {
+      // width: 164px;
+      height: 50px;
+      background-color: #111e1e !important;
+      border-color: transparent !important;
+      border-radius: 90px 90px 90px 90px;
+      opacity: 1;
+      display: flex;
+      padding: 0 14px 0 5px;
+      align-items: center;
+      margin-top: 30px;
+      cursor: pointer;
+      margin-left: 16px;
+      .eth {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 12px;
+        // margin-top: 1px;
+      }
+      .ethImg {
+        width: 40px !important;
+        height: 40px !important;
+      }
+      &-font {
+        color: #c9fdd9;
+        font-family: Kumbh Sans, Kumbh Sans;
+        h6 {
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 21px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+      .xl {
+        margin-left: auto;
+      }
+    }
+    .testBth {
+      background: url("@statics/images/my_icon_eth.png") no-repeat;
+      background-size: 100% 100%;
+      // padding-left: 5px !important;
+      span {
+        width: 148px;
+        height: 18px;
+        font-family: Kumbh Sans, Kumbh Sans;
+        font-weight: 500;
+        font-size: 18px;
+        color: #c9fdd9;
+        line-height: 18px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+  }
+  .connect {
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #c9fdd9;
+    margin-left: auto;
+  }
+}

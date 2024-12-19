@@ -1,0 +1,29 @@
+.head-image {
+  position: relative;
+  cursor: pointer;
+  .avatar-image {
+    position: relative;
+    overflow: hidden;
+    display: block;
+  }
+
+  .avatar-text {
+    background-color: #f2f2f2; /* 默认背景色 */
+    border-radius: 15%; /* 圆角效果 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+  }
+
+  .online {
+    position: absolute;
+    right: -5px;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    background: limegreen;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+}

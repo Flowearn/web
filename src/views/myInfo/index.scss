@@ -1,0 +1,412 @@
+@import "@/styles/comm.scss";
+.myInfo {
+  padding: 0 25px 41px;
+  &-top {
+    // padding: 24px 24px 83px;
+    // background: #111e1e;
+    // display: flex;
+    align-items: center;
+    &-left {
+      .mtl-title {
+        display: flex;
+        align-items: center;
+        .iconX {
+          width: 17px;
+          height: 15px;
+        }
+        .verified {
+          font-size: 16px;
+          font-family: Kumbh Sans, Kumbh Sans;
+          font-weight: 600;
+          color: #c9fdd9;
+          line-height: 19px;
+          border-bottom: 1px solid #c9fdd9;
+          margin-left: 10px;
+        }
+        div {
+          text-align: left;
+          h6 {
+            font-size: 34px;
+            font-family: Work Sans, Work Sans;
+            font-weight: bold;
+            color: #c9fdd9;
+            line-height: 40px;
+            margin-top: -14px;
+          }
+          p {
+            font-size: 16px;
+            font-family: Kumbh Sans, Kumbh Sans;
+            font-weight: 400;
+            color: #c9fdd9;
+            line-height: 19px;
+            margin-top: 2px;
+          }
+        }
+      }
+      .mtl-avatar {
+        margin-top: 9px;
+        .avatar {
+          // width: 56px !important;
+          // height: 56px !important;
+          // border-radius: 50%;
+        }
+      }
+    }
+  }
+  &-balance {
+    padding: 26px 24px;
+    background-color: #111e1e;
+    border-radius: 8px;
+    margin: 20px 0 24px;
+    text-align: left;
+    .title {
+      font-size: 16px;
+      font-family: Kumbh Sans, Kumbh Sans;
+      font-weight: 400;
+      color: #c9fdd9;
+      line-height: 19px;
+      margin-bottom: 6px;
+    }
+    .mainWallet {
+      margin-bottom: 9px;
+      line-height: 20px;
+      font-size: 18px;
+    }
+    .keysEarned {
+      line-height: 20px;
+    }
+    .totalBalance {
+      margin-bottom: 11px;
+      line-height: 24px;
+    }
+    .usdt {
+      margin-bottom: 14px;
+    }
+    .wallet {
+      font-size: 16px;
+      color: rgba(187, 255, 214, 0.6);
+      line-height: 24px;
+      p:last-child {
+        margin-bottom: 19px;
+      }
+    }
+    .moneyBox {
+      font-size: 38px;
+      font-family: Work Sans, Work Sans;
+      font-weight: bold;
+      color: #2ddda4;
+      line-height: 33px;
+      // margin-bottom: 16px;
+      span {
+        font-size: 20px;
+        color: #c9fdd9;
+        margin-left: 7px;
+      }
+    }
+    .eth {
+      color: #c9fdd9;
+      margin-top: 6px;
+      font-size: 34px !important;
+    }
+    .dollar {
+      font-size: 18px;
+      font-family: Kumbh Sans, Kumbh Sans;
+      font-weight: 600;
+      color: #c9fdd9;
+      line-height: 21px;
+    }
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      // margin-top: 29px;
+      &-item {
+        width: calc(33% - 24px);
+        padding: 16px 16px 17px;
+        border: 1px solid rgba(104, 218, 164, 0.2);
+        border-radius: 10px 10px 10px 10px;
+        margin-right: 24px;
+      }
+      &-item:last-child {
+        margin-right: 0;
+      }
+    }
+    .input {
+      width: 422px !important;
+      margin: 0 24px 0 13px !important;
+    }
+    .comingSoonBox {
+      width: 503px;
+      height: 48px !important;
+      margin-right: 22px;
+      border-radius: 10px 10px 10px 10px;
+      border: 1px solid rgba(104, 218, 164, 0.2);
+    }
+    .bsubButton {
+      width: 100%;
+      height: 48px;
+      background: #2ddda4;
+      border-radius: 10px 10px 10px 10px;
+      // margin-top: 27px;
+      text-align: center;
+      line-height: 48px;
+      color: #fff;
+      font-size: 18px;
+      font-family: Kumbh Sans, Kumbh Sans;
+      font-weight: 600;
+      color: #000300;
+      cursor: pointer;
+      margin-top: -4px;
+    }
+    .bsubButton:hover {
+      opacity: 0.85;
+    }
+  }
+  &-latest {
+    &-title {
+      font-size: 24px;
+      font-family: Work Sans, Work Sans;
+      font-weight: bold;
+      color: #c9fdd9;
+      line-height: 28px;
+    }
+    &-list {
+      display: flex;
+      &-item {
+        // width: 50%;
+        // margin-right: 44px;
+        p {
+          font-size: 14px;
+          font-family: Kumbh Sans, Kumbh Sans;
+          font-weight: 400;
+          color: #c9fdd9;
+          line-height: 16px;
+          margin: 22px 0 17px;
+        }
+      }
+    }
+    &-table {
+      display: flex;
+      .table {
+        width: 100%;
+        // margin-right: 54px;
+      }
+    }
+  }
+  &-btn {
+    display: flex;
+    align-items: center;
+    &-cp {
+      width: 100%;
+      display: flex;
+      margin-right: 16px;
+      padding: 19px 0;
+      background-color: #111e1e;
+      border-radius: 8px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      span {
+        font-size: 18px;
+        font-family: Kumbh Sans, Kumbh Sans;
+        font-weight: 600;
+        color: #c9fdd9;
+        line-height: 21px;
+        margin-left: 11px;
+      }
+    }
+    &-cp:last-child {
+      margin-right: 0;
+    }
+  }
+  .ant-input:hover,
+  .ant-input:focus,
+  .ant-input-focused {
+    border: 1px solid rgba(104, 218, 164, 0.2);
+  }
+
+  .connectBox {
+    background: #c9fdd9 !important;
+    width: 135px;
+    height: 32px;
+    // line-height: 32px;
+    font-size: 14px;
+    margin-top: 0;
+    border-radius: 6px 6px 6px 6px;
+    color: rgba(0, 0, 0, 0.88) !important;
+  }
+  .ComingSoonBox {
+    background: #404d4c !important;
+    font-weight: 600;
+    text-align: center;
+    color: #c9fdd9 !important;
+    border-color: #404d4c !important;
+  }
+  .connectInfo {
+    // width: 50%;
+    // background: linear-gradient(
+    //   224deg,
+    //   #111e1e 0%,
+    //   rgba(37, 49, 49, 0.29) 100%
+    // );
+    background: url("@statics/images/mp_bj_wallet.png") no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 4px 30px 0px rgba(50, 214, 78, 0);
+    border-radius: 10px 10px 10px 10px;
+    border: none !important;
+  }
+  .aptos {
+    background: url("@statics/images/mp_bj_aptos.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .connectInfoTwo {
+    background: linear-gradient(
+      132deg,
+      #203a33 2%,
+      rgba(26, 48, 45, 0.29) 100%
+    );
+  }
+  .connected {
+    display: flex;
+    flex-wrap: wrap;
+    // margin-left: calc(33% + 13px);
+    margin-top: 16px;
+    .walletInfo {
+      width: 100% !important;
+      height: 43px;
+      line-height: 43px;
+      font-weight: 600;
+      font-size: 12px;
+      color: #c9fdd9;
+      margin-bottom: 24px;
+      margin-right: 0 !important;
+      margin-top: 0;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 6px 6px 6px 6px;
+      img {
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      span {
+        margin-right: 18px;
+      }
+    }
+    div:nth-child(2n-1) {
+      // margin-right: 17px;
+    }
+  }
+  .keysBox {
+    width: 241px;
+    padding-top: 24px;
+    margin-right: 12px;
+    p {
+      font-size: 16px;
+      color: rgba(187, 255, 214, 0.6);
+      span {
+        margin-right: 10px;
+      }
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 26px;
+      color: #c9fdd9;
+      margin: 10px 0 66px;
+    }
+  }
+  .keysBox {
+    &-item:last-child {
+      h1 {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .keysTable {
+    width: calc(100% - 253px);
+    padding-top: 8px;
+  }
+  .pointsBox {
+    // width: 164px;
+    height: 36px;
+    line-height: 36px;
+    background: url("@statics/images/mp_bj_sz.png") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 18px;
+    font-size: 16px;
+    color: #c9fdd9;
+    text-align: center !important;
+    margin-top: 11px;
+    padding: 0 9.5px;
+    span {
+      margin: 0 0 0 6px;
+    }
+    img {
+      vertical-align: middle;
+      margin-top: -2px;
+    }
+  }
+}
+.avatarBox {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  cursor: pointer;
+  margin-right: 13px;
+  overflow: hidden;
+  border-radius: 50%;
+  .changep {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 23px;
+    line-height: 23px;
+    background: #000300;
+    opacity: 0.7;
+    border-radius: 0 0 50% 50%;
+    display: none;
+    text-align: center !important;
+    font-family: Work Sans, Work Sans !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+    color: #c9fdd9 !important;
+    font-style: normal !important;
+    text-transform: none !important;
+  }
+}
+.avatarBox:hover .changep {
+  display: block !important;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr.ant-table-placeholder:hover > th,
+.ant-table-wrapper .ant-table-tbody > tr.ant-table-placeholder:hover > td,
+.ant-table-wrapper .ant-table-tbody > tr.ant-table-placeholder {
+  background: transparent !important;
+}
+
+.fontColor {
+  color: rgba(187, 255, 214, 0.6) !important;
+}
+
+.comingSoonBox::placeholder {
+  font-family: Kumbh Sans, Kumbh Sans;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(187, 255, 214, 0.6);
+  line-height: 23px;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (max-width: 375px) {
+}
+
+@media only screen and (max-width: 414px) {
+}
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}

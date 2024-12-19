@@ -1,0 +1,528 @@
+.myPortfoLio {
+  // padding: 0 24px 20px 26px;
+  &-form {
+    width: 100%;
+    padding: 31px 23px;
+    background-color: #111e1e;
+    margin: 24px 0 10px;
+    text-align: center;
+    border-radius: 8px;
+    &-title {
+      font-size: 16px;
+      font-family: Kumbh Sans, Kumbh Sans;
+      // font-weight: 600;
+      color: rgba(187, 255, 214, 0.6);
+      line-height: 19px;
+      text-align: center;
+    }
+    &-box {
+      margin: auto;
+      margin-top: 28px;
+      .ant-col-7 {
+        margin-right: 25px;
+      }
+    }
+    .or {
+      position: absolute;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      margin-right: 16px;
+      top: 15px;
+      right: -40px;
+      font-family: Kumbh Sans, Kumbh Sans;
+      // font-weight: 600;
+      color: rgba(187, 255, 214, 0.5);
+      line-height: 19px;
+    }
+    .comm {
+      font-size: 32px;
+      font-weight: 500;
+    }
+  }
+  .soon {
+    div {
+      font-size: 16px;
+      font-family: Kumbh Sans, Kumbh Sans;
+      // font-weight: 600;
+      color: rgba(187, 255, 214, 0.6);
+      line-height: 19px;
+    }
+  }
+  .form-title {
+    font-size: 16px;
+    font-family: Kumbh Sans, Kumbh Sans;
+    font-weight: 500;
+    color: rgba(187, 255, 214, 0.6);
+    line-height: 24px;
+    text-align: center;
+  }
+  .save {
+    width: 322px;
+    height: 48px;
+    background-color: #2ddda4 !important;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1;
+    border: none;
+    font-size: 18px;
+    font-family: Kumbh Sans, Kumbh Sans;
+    font-weight: 600;
+    color: #000300 !important;
+    line-height: 21px;
+    margin-top: 14px;
+  }
+  .save:hover {
+    opacity: 0.85;
+  }
+
+  .holdTitle {
+    color: "#C9FDD9";
+    text-align: "left";
+    font-family: Work Sans, Work Sans;
+    margin-top: 20px;
+    text-align: left;
+    color: #c9fdd9;
+  }
+
+  // .connectBox {
+  //   background: #c9fdd9;
+  //   width: 135px;
+  //   height: 32px;
+  //   line-height: 22px;
+  //   font-size: 14px;
+  //   margin-top: 0;
+  //   text-align: center;
+  //   border-radius: 6px 6px 6px 6px;
+  // }
+  .connectInfo {
+    // width: 50%;
+    // background: linear-gradient(
+    //   224deg,
+    //   #111e1e 0%,
+    //   rgba(37, 49, 49, 0.29) 100%
+    // );
+    background: url("@statics/images/mp_bj_wallet.png") no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 4px 30px 0px rgba(50, 214, 78, 0);
+    border-radius: 10px 10px 10px 10px;
+    border: none !important;
+  }
+  .aptos {
+    background: url("@statics/images/mp_bj_aptos.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .connectInfoTwo {
+    background: linear-gradient(
+      132deg,
+      #203a33 2%,
+      rgba(26, 48, 45, 0.29) 100%
+    );
+  }
+  .connected {
+    // width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    // margin-left: //calc(33% + 13px);
+    margin-top: 16px;
+    .walletInfo {
+      width: 100% !important;
+      height: 43px;
+      line-height: 43px;
+      font-weight: 600;
+      font-size: 12px;
+      color: #c9fdd9;
+      margin-bottom: 24px;
+      margin-right: 6px !important;
+      margin-top: 0;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 6px 6px 6px 6px;
+      img {
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      span {
+        margin-right: 18px;
+      }
+    }
+    div:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+  .keysBox {
+    width: 241px;
+    padding-top: 24px;
+    margin-right: 12px;
+    p {
+      font-size: 16px;
+      color: rgba(187, 255, 214, 0.6);
+      span {
+        margin-right: 10px;
+      }
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 26px;
+      color: #c9fdd9;
+      margin: 10px 0 66px;
+    }
+  }
+  .keysBox {
+    &-item:last-child {
+      h1 {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .keysTable {
+    width: calc(100% - 253px);
+    padding-top: 8px;
+  }
+  .titleBox {
+    display: flex;
+    .title {
+      font-family: Work Sans, Work Sans;
+      font-weight: bold;
+      font-size: 24px;
+      color: #c9fdd9;
+      line-height: 28px;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    &-right {
+      display: flex;
+      margin-left: auto;
+      div {
+        padding: 14px 13px;
+        background: #1c2725;
+        border-radius: 6px 6px 6px 6px;
+        font-family: ABeeZee, ABeeZee;
+        font-weight: 400;
+        font-size: 16px;
+        color: #c9fdd9;
+        line-height: 18px;
+        margin-left: 13px;
+        cursor: pointer;
+      }
+      .tab.active {
+        background: #2ddda4;
+        color: #111e1e;
+      }
+      div:first-child{
+        margin-left: 0;
+      }
+    }
+  }
+}
+.connectWallet {
+  background: #111e1e;
+  margin: 0 40px 20px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 24px 27px 24px 22px;
+  h1 {
+    font-family: Kumbh Sans, Kumbh Sans;
+    font-weight: 600;
+    font-size: 18px;
+    color: #bbffd6;
+    line-height: 21px;
+    text-align: left;
+  }
+  &-box {
+    height: 238px;
+    margin-top: 13px;
+    padding-top: 20px;
+    font-family: Kumbh Sans, Kumbh Sans;
+    font-weight: 600;
+    background: url("@statics/images/my_bt_bj.png") no-repeat;
+    background-size: 100% 100%;
+    img {
+      width: 81px;
+      height: 81px;
+    }
+    p {
+      font-size: 16px;
+      color: #bbffd6;
+      line-height: 19px;
+      margin: 0 0 20px;
+    }
+    .mainWallet {
+      width: 289px;
+      height: 48px;
+      font-size: 18px;
+      color: #000300 !important;
+      font-weight: bold;
+      background-color: #2ddda4 !important;
+      border-radius: 10px 10px 10px 10px;
+    }
+  }
+}
+.ant-form-inline .ant-form-item:nth-child(3n-2) {
+  margin-inline-end: 30px;
+}
+
+.ant-form-inline .ant-form-item:nth-child(3n) {
+  margin-inline-end: 0;
+}
+.ant-form-inline {
+  justify-content: center;
+}
+
+.ant-col-8.orBox {
+  position: relative;
+}
+
+.ant-input-affix-wrapper {
+  height: 52px;
+  background-color: #111e1e;
+  border: 1px solid rgba(104, 218, 164, 0.2);
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  height: 34px;
+  background-color: #111e1e;
+}
+
+.ant-input {
+  // height: 52px !important;
+  font-size: 16px !important;
+  font-family: Kumbh Sans, Kumbh Sans !important;
+  color: #c9fdd9 !important;
+  line-height: 19px !important;
+  background-color: #111e1e !important;
+  // border: 1px solid rgba(104, 218, 164, 0.2) !important;
+}
+
+.ant-input-affix-wrapper .ant-input-suffix {
+  font-size: 16px;
+  font-family: Kumbh Sans, Kumbh Sans;
+  // font-weight: 600;
+  color: #c9fdd9;
+  line-height: 19px;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border: 1px solid rgba(104, 218, 164, 0.2);
+}
+
+.ant-input-outlined:hover,
+.ant-input-outlined:focus,
+.ant-input-outlined:focus-within {
+  background-color: transparent !important;
+  border-color: rgba(104, 218, 164, 0.2) !important;
+}
+
+.iconImg {
+  width: 30px;
+  height: 30px;
+}
+
+.ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  height: 46px;
+  line-height: 46px;
+  background-color: transparent !important;
+  border: 1px solid rgba(104, 218, 164, 0.2);
+}
+
+.ant-select-single {
+  width: 100% !important;
+  height: 46px !important;
+}
+
+.ant-select-outlined:not(.ant-select-disabled):not(
+    .ant-select-customize-input
+  ):not(.ant-pagination-size-changer):hover
+  .ant-select-selector,
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  border-color: rgba(104, 218, 164, 0.2);
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  color: #c9fdd9 !important;
+}
+
+.ant-select-dropdown {
+  background-color: #404d4c;
+  color: #c9fdd9 !important;
+}
+
+.ant-select-dropdown .ant-select-item-option-content {
+  color: #c9fdd9 !important;
+}
+
+.ant-select-dropdown
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled),
+.ant-select-dropdown
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #152121 !important;
+}
+
+.ant-btn-default {
+  background-color: transparent !important;
+  color: #c9fdd9 !important;
+  border-color: rgba(104, 218, 164, 0.2);
+}
+
+.ant-btn-primary {
+  background-color: #2ddda4 !important;
+  color: #000300 !important;
+}
+
+.transaction {
+  position: relative;
+  .imgComm {
+    position: absolute;
+    top: 6px;
+  }
+  &-btn {
+    left: 10px;
+  }
+  &-xiala {
+    top: 16px !important;
+    right: 10px;
+  }
+}
+
+.ant-select .ant-select-clear {
+  color: #c9fdd9 !important;
+  right: 30px !important;
+}
+
+.ant-input-outlined,
+.ant-input-number-outlined {
+  width: 100% !important;
+  height: 44px !important;
+  line-height: 44px !important;
+  padding: 0 12px !important;
+  border-color: transparent;
+  // background-color: transparent !important;
+}
+.ant-input-affix-wrapper > input.ant-input {
+  height: 40px !important;
+}
+.ant-input-number .ant-input-number-input {
+  padding: 0 !important;
+  color: #c9fdd9 !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.optionBox {
+  display: flex;
+  align-items: center;
+  color: #c9fdd9;
+  margin-top: 18px;
+  padding: 0 16px;
+  cursor: pointer;
+  .imgBtc {
+    width: 36px;
+    height: 37px;
+    margin-right: 10px;
+  }
+  .nameBox {
+    span {
+      font-size: 18px;
+      font-family: Inter, Inter;
+      font-weight: bold;
+    }
+  }
+  .priceBox {
+    margin-left: auto;
+    font-size: 20px;
+    font-family: Inter, Inter;
+    font-weight: bold;
+    color: #c9fdd9;
+  }
+}
+
+.optionBox:hover {
+  background: #152121;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 1;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  .nameBox {
+    span {
+      font-weight: normal !important;
+      font-family: Kumbh Sans, Kumbh Sans;
+      font-size: 14px;
+    }
+    p {
+      display: none;
+    }
+  }
+  .priceBox {
+    display: none;
+  }
+}
+
+.ant-modal .ant-modal-body {
+  // margin-top: 30px;
+}
+/* 修改元素滚动条的样式 */
+.ant-modal .ant-modal-body::-webkit-scrollbar {
+  width: 0px;
+  /* 设置滚动条宽度 */
+}
+
+.ant-modal .ant-modal-body::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  /* 设置滚动条 thumb 颜色 */
+  border-radius: 10px;
+  /* 设置滚动条 thumb 圆角 */
+}
+
+.ant-modal .ant-modal-body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* 设置滚动条 track 颜色 */
+  border-radius: 10px;
+  /* 设置滚动条 track 圆角 */
+}
+
+.ant-modal .ant-modal-content {
+  padding: 16px 30px;
+}
+
+.modal .inputBox {
+  margin-top: 23px;
+  border-radius: 8px;
+  background-color: #152121 !important;
+  .ant-input {
+    background-color: #152121 !important;
+  }
+  .ant-input::placeholder {
+    color: #c9fdd9;
+    font-size: 14px;
+  }
+  // .ant-input:hover {
+  //   border: 1px solid rgba(104, 218, 164, 0.2) !important;
+  // }
+}
+
+.myPortfoLio .transaction .ant-input-prefix {
+  width: 30px !important;
+}
+
+.ant-spin-nested-loading .ant-spin-blur::after {
+  opacity: 0 !important;
+}
+
+.myPortfoLioDiv {
+  padding: 0 25px 70px !important;
+  .pageTitle {
+    margin-left: 0;
+  }
+  .connectWallet {
+    margin: 20px 0 0 !important;
+  }
+}

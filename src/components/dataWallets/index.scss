@@ -1,0 +1,119 @@
+.dataWallets {
+  padding: 25px 12px 19px 22px;
+  &-name {
+    line-height: 24px !important;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+  }
+  .itemBox {
+    width: calc(25% - 10px);
+    margin-right: 10px;
+  }
+  .itemBox:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+.listBox {
+  width: 100% !important;
+  margin-right: 0 !important;
+}
+.connected {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  // margin-left: //calc(33% + 13px);
+  margin-top: 16px;
+  .walletInfo {
+    // min-width: 227px !important;
+    // width: calc(50% - 14px) !important;
+    width: 100% !important;
+    height: 43px;
+    line-height: 43px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #c9fdd9;
+    margin-bottom: 24px;
+    margin-right: 0 !important;
+    margin-top: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px 6px 6px 6px;
+    img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    span {
+      margin-right: 18px;
+    }
+  }
+  div:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+}
+.connected .connectBox.walletInfo {
+  width: 100%;
+  display: flex;
+  // justify-content: space-between;
+  color: #c9fdd9 !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  margin-bottom: 10px !important;
+  padding: 0 8px !important;
+  div {
+    display: inline-block;
+    text-align: left;
+  }
+  .connectSpan {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 0 !important;
+    // background: rgba(255, 255, 255, 0.1) !important;
+  }
+}
+.connected .connectBox.walletInfo.disableBtn {
+  background: rgba(255, 255, 255, 0.02) !important;
+  cursor: not-allowed;
+}
+.connectInfo {
+  width: 100% !important;
+  padding: 16px 6px 19px 10px !important;
+  margin-right: 10px !important;
+  .connectBox.ethereum-connected {
+    background: rgb(45, 221, 164) !important;
+  }
+  .typeTitle {
+    font-size: 12px !important;
+    line-height: 15px !important;
+    margin-bottom: 17px !important;
+  }
+}
+.connectInfo:last-child {
+  margin-right: 0 !important;
+}
+
+.connectBox {
+  background: #c9fdd9 !important;
+  width: 135px;
+  height: 32px;
+  line-height: 22px;
+  font-size: 14px;
+  margin-top: 0;
+  border-radius: 6px 6px 6px 6px;
+  color: rgba(0, 0, 0, 0.88) !important;
+}
+.ComingSoonBox {
+  background: #404d4c !important;
+  font-weight: 600;
+  text-align: center;
+  color: #c9fdd9 !important;
+  border-color: #404d4c !important;
+}
+
+// @media screen and (max-width: 1625px) {
+//   .myInfo .connected div {
+//     width: 100% !important;
+//     margin-right: 11.5px !important;
+//   }
+//   .myInfo .connected div:last-child {
+//     margin-right: 11.5px !important;
+//   }
+// }

@@ -1,0 +1,114 @@
+.notification {
+  margin: 19px 0 0 0;
+  padding: 0 24px 0;
+  background: #111e1e;
+  border-radius: 8px;
+  height: calc(100% - 217px);
+  -webkit-overflow-scrolling: touch;
+  &-item {
+    padding: 25px 0 20px;
+    text-align: left;
+    // margin-bottom: 40px;
+    display: flex;
+    border-bottom: 1px solid rgba(104, 218, 164, 0.2);
+    &-img {
+      width: 52px;
+      height: 52px;
+      margin-right: 20px;
+      position: relative;
+      .avatar {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+      }
+      .typeImg {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        bottom: 0;
+        right: -7px;
+      }
+    }
+    &-info {
+      width: 100%;
+      .token {
+        display: flex;
+        font-size: 20px;
+        font-family: Work Sans, Work Sans;
+        font-weight: bold;
+        color: #c9fdd9;
+        line-height: 23px;
+        align-items: center;
+        span {
+          margin-left: auto;
+          font-size: 16px;
+          font-family: Kumbh Sans, Kumbh Sans;
+          font-weight: 500;
+          color: rgba(187, 255, 214, 0.6);
+          line-height: 19px;
+        }
+      }
+      .portfolio {
+        // display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        font-family: Kumbh Sans, Kumbh Sans;
+        font-weight: 400;
+        color: #c9fdd9;
+        line-height: 19px;
+        margin-top: 6px;
+      }
+      .more {
+        font-size: 16px;
+        font-family: Kumbh Sans, Kumbh Sans;
+        font-weight: 400;
+        color: #2ddda4;
+        line-height: 19px;
+        margin-top: 14px;
+        cursor: pointer;
+        span {
+          border-bottom: 1px solid #2ddda4;
+        }
+      }
+    }
+
+    .minutes {
+      color: #666;
+    }
+  }
+  &-item:last-child {
+    border-bottom: none;
+  }
+  .green {
+    background-color: rgb(209, 239, 206);
+    border: 2px solid rgb(26, 174, 159);
+  }
+  .red {
+    border: 2px solid rgb(211, 69, 91);
+    background-color: rgb(246, 218, 222);
+  }
+  .blue {
+    border: 2px solid rgb(44, 136, 217);
+    background-color: rgb(213, 231, 247);
+  }
+}
+.contentBox {
+  padding-bottom: 47px;
+  padding: 0 24px 24PX 26px;
+}
+.notificationName {
+  margin-left: 0 !important;
+}
+.notification::-webkit-scrollbar {
+  width: 6px;
+}
+
+.notification::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.notification::-webkit-scrollbar-track {
+  // background-color: #f1f1f1;
+  border-radius: 10px;
+}

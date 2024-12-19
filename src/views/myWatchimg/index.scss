@@ -1,0 +1,45 @@
+@import "@/styles/comm.scss";
+.myWatchimg {
+  padding: 24px;
+  &-table {
+    padding: 22px 24px;
+    margin: 24px 0 22px;
+    background-color: #111e1e;
+    border-radius: 8px;
+  }
+  &-form {
+    width: 100%;
+    padding: 22px 23px;
+    background-color: #111e1e;
+    margin: 24px 0 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .soon {
+    div {
+      font-size: 16px;
+      font-family: Kumbh Sans, Kumbh Sans;
+      font-weight: 600;
+      color: #c9fdd9;
+      line-height: 19px;
+    }
+  }
+}
+
+.ant-table-wrapper .ant-table-cell-scrollbar:not([rowspan]) {
+  box-shadow: none !important;
+}
+
+.ant-table-wrapper .ant-table-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ant-table-wrapper .ant-table-body::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.ant-table-wrapper .ant-table-body::-webkit-scrollbar-track {
+  // background-color: #f1f1f1;
+  border-radius: 10px;
+}

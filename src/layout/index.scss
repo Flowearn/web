@@ -1,0 +1,32 @@
+.Layout {
+  height: 100%;
+}
+.site-layout {
+  position: absolute;
+  width: calc(100% - 300px) !important;
+  left: 300px;
+  background-color: #404d4c;
+  overflow-y: scroll;
+  height: 100%;
+  // height: 810px;
+}
+
+/* 修改元素滚动条的样式 */
+.site-layout::-webkit-scrollbar {
+  width: 0px;
+  /* 设置滚动条宽度 */
+}
+
+.site-layout::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  /* 设置滚动条 thumb 颜色 */
+  border-radius: 0px;
+  /* 设置滚动条 thumb 圆角 */
+}
+
+.site-layout::-webkit-scrollbar-track {
+  // background-color: #f1f1f1;
+  /* 设置滚动条 track 颜色 */
+  border-radius: 0px;
+  /* 设置滚动条 track 圆角 */
+}

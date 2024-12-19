@@ -1,0 +1,1029 @@
+@media only screen and (max-width: 768px) {
+  .myFollowing .ranKing-item:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  .myFollowing {
+    .itemBox {
+      justify-content: space-between !important;
+    }
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 400px) {
+  .myFollowing {
+    .ranKing-item.divItem {
+      width: 175px !important;
+    }
+    .itemBox {
+      justify-content: space-between !important;
+    }
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+  .myFollowing {
+    .ranKing-item.divItem {
+      width: 185px !important;
+    }
+    .itemBox {
+      justify-content: space-between !important;
+    }
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 440px) {
+  .myFollowing {
+    .ranKing-item.divItem {
+      width: 195px !important;
+    }
+    .itemBox {
+      justify-content: space-between !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 853px) {
+  .Layout {
+    overflow: hidden;
+    .header {
+      height: 58px !important;
+      background-color: transparent;
+      padding: 0 16px !important;
+      &-left {
+        width: auto !important;
+        min-width: auto !important;
+        max-width: auto !important;
+        p {
+          margin: 15px 0 22px !important;
+          line-height: 20px !important;
+          img {
+            width: 145px !important;
+            height: 16px !important;
+          }
+        }
+      }
+      &-right {
+        width: 100% !important;
+        padding-right: 0 !important;
+        .login.accountBox {
+          padding: 3px 12px 3px 4px !important;
+          margin-left: 8px !important;
+        }
+        .avabox {
+          margin-right: 8px;
+        }
+        .login.notLogin {
+          margin-left: 8px !important;
+          padding: 3px 4px !important;
+          font-size: 10px !important;
+        }
+        .login {
+          height: auto !important;
+          padding: 7px 8px !important;
+          margin-top: 0 !important;
+          // margin-left: 8px !important;
+          img {
+            width: 12px;
+            height: 12px;
+          }
+          span {
+            font-size: 10px !important;
+          }
+          .eth {
+            width: 18px;
+            height: 18px;
+          }
+        }
+        .testBth {
+          width: 24px !important;
+          height: 24px !important;
+          padding: 0 !important;
+          .ethImg {
+            width: 20px !important;
+            height: 20px !important;
+          }
+        }
+        .login-font h6 {
+          font-size: 12px !important;
+        }
+      }
+    }
+    .ant-layout {
+      .ant-layout-sider {
+        position: absolute;
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        height: 52px !important;
+        bottom: 0;
+        .ant-menu-inline {
+          display: flex;
+          padding: 0 !important;
+
+          img {
+            width: 145px !important;
+            height: 16px !important;
+          }
+        }
+      }
+    }
+    .ant-layout.ant-layout-has-sider {
+      position: relative;
+      height: calc(100% - 58px) !important;
+    }
+  }
+  .ant-layout {
+    .ant-layout-sider {
+      // height: 32px !important;
+      width: 100% !important;
+      min-width: 100% !important;
+      max-width: 100% !important;
+      height: 52px !important;
+      bottom: 0;
+      .ant-menu-inline {
+        display: flex;
+        padding: 0 !important;
+      }
+      .ant-menu-dark.ant-menu-inline .ant-menu-item {
+        width: 25%;
+        margin: 0 !important;
+        display: block !important;
+        padding: 0 !important;
+        text-align: center;
+      }
+      .ant-menu-dark.ant-menu-inline .ant-menu-item:first-child {
+        width: 24% !important;
+      }
+      .ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+      .ant-menu-inline.ant-menu-root
+        .ant-menu-submenu-title
+        > .ant-menu-title-content {
+        padding-left: 0 !important;
+        display: block;
+        line-height: 20px !important;
+        font-size: 12px !important;
+        margin-top: -12px !important;
+      }
+      .ant-menu-dark .ant-menu-item-selected,
+      .ant-menu-dark:not(.ant-menu-horizontal)
+        .ant-menu-item:not(.ant-menu-item-selected):hover {
+        background-color: transparent !important;
+      }
+      .saderBox
+        .ant-menu-dark
+        .ant-menu-item.ant-menu-item-selected
+        .ant-menu-title-content,
+      .ant-menu-item-selected .muneIcon {
+        color: #2ddda4 !important;
+      }
+      .saderBox {
+        z-index: 9;
+      }
+    }
+    .footer-left {
+      display: none;
+    }
+  }
+  .site-layout {
+    width: 100% !important;
+    left: 0;
+    height: calc(100% - 52px);
+  }
+
+  .pageTitle {
+    margin: 0 0 16px 0 !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+  }
+  .contentBox {
+    padding: 0 16px !important;
+  }
+  .connectWalletfollowing {
+    padding: 0 16px !important;
+  }
+  .ranking {
+    padding: 24px 16px 83px !important;
+    .rankingBox {
+      padding: 16px 24px 24px !important;
+      .title {
+        font-size: 12px;
+        margin-top: -12px;
+      }
+      img {
+        width: 95px !important;
+        height: 95px !important;
+      }
+      .buy {
+        width: 118px;
+        height: 28px;
+        border-radius: 4px;
+        font-size: 12px;
+        margin-top: 20px;
+      }
+    }
+    .recent {
+      &-comm {
+        .itemBox {
+          display: block !important;
+          &-content {
+            font-size: 12px !important;
+            line-height: 19px !important;
+          }
+        }
+        &-item {
+          width: 100% !important;
+          height: auto;
+          padding-left: 10px !important;
+          margin-bottom: 5px !important;
+          padding: 10px 0 10px 10px !important;
+        }
+        .time {
+          font-size: 10px !important;
+          text-align: right;
+          padding-right: 10px !important;
+        }
+        .followBox {
+          width: 96px !important;
+          min-width: 96px !important;
+          height: 28px !important;
+          line-height: 28px !important;
+          font-size: 10px !important;
+          margin-bottom: 15px !important;
+          margin-left: auto !important;
+        }
+      }
+    }
+  }
+  .myFollowing {
+    .ranKing-item {
+      width: 167.5px !important;
+      margin-right: 8px !important;
+      padding: 8.5px 10px 10px !important;
+      .avatar {
+        margin-bottom: 12px;
+      }
+      .numberInfo {
+        width: 70px !important;
+        margin-right: 0 !important;
+        h1 {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .myFollowing {
+    .ranKing-item {
+      width: 167.5px !important;
+      margin-right: 8px !important;
+      padding: 8.5px 10px 10px !important;
+      .avatar {
+        margin-bottom: 12px;
+      }
+      .numberInfo {
+        width: 70px !important;
+        margin-right: 0 !important;
+        h1 {
+          font-size: 10px;
+          margin-bottom: 5px;
+        }
+
+        p {
+          margin: 0 !important;
+          font-size: 14px !important;
+          line-height: 18.5px !important;
+          span {
+            font-size: 12px !important;
+          }
+        }
+      }
+      .keyPrice {
+        width: 100% !important;
+      }
+
+      .roiBox {
+        margin-top: 4px !important;
+      }
+      .bsubButton {
+        height: 28px !important;
+        line-height: 28px !important;
+        font-size: 12px !important;
+        border-radius: 6px !important;
+      }
+      .lineBox {
+        width: calc(100% - 60px);
+        canvas {
+          height: 42px !important;
+        }
+      }
+      .numberBox {
+        font-size: 10px;
+        margin-bottom: 8px;
+        span {
+          font-size: 10px !important;
+          line-height: 10px !important;
+        }
+      }
+      .ranImg {
+        width: 21px;
+        height: 23px;
+        right: 6px !important;
+      }
+      .avatar-imgBox {
+        img {
+          width: 30px !important;
+          height: 30px !important;
+        }
+      }
+      .ranKing-item-info-name {
+        font-size: 10px;
+      }
+      .ranKing-item-info-num {
+        margin-top: 0 !important;
+      }
+      .miin-comm {
+        font-size: 10px;
+        .iconFontTwo {
+          font-size: 10px;
+        }
+      }
+      .roiTitle {
+        margin-top: 4px;
+      }
+      .pnlTitle {
+        margin-top: -1px;
+      }
+      .bottom {
+        margin-bottom: 16px !important;
+      }
+      .btnBox {
+        margin-bottom: 14.5px !important;
+      }
+    }
+    .ranKing-item:nth-child(2n) {
+      // margin-right: 0 !important;
+    }
+    .TelegramBox {
+      font-size: 12px;
+      .TelegramBox-btn.ant-btn-default {
+        // width: 194px;
+        height: 36px;
+        font-size: 10px;
+        margin-top: 6px !important;
+        i {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .myFollowing .ranKing-item:nth-child(2n) {
+    // margin-right: 0 !important;
+  }
+  .myFollowing .ranKing-item:nth-child(2n + 1) {
+    margin-right: 8px !important;
+  }
+  .myFollowing .ranKing-item:nth-child(2n) {
+    // margin-right: 0 !important;
+  }
+  .muneIcon {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 20px !important;
+  }
+  .connectWallet {
+    padding: 16px !important;
+    .h1 {
+      font-size: 16px !important;
+    }
+    .connectWallet-box {
+      height: auto !important;
+      background: transparent !important;
+      padding-top: 3px !important;
+      p {
+        font-size: 12px;
+        margin-top: -10px !important;
+        line-height: 16px !important;
+      }
+      &-img {
+        width: 99px !important;
+        height: 99px !important;
+      }
+      .mainWallet {
+        width: 126px;
+        height: 31px;
+        background: #2ddda4;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 12px;
+        border-radius: 10px !important;
+        img {
+          width: 22px !important;
+          height: 22px !important;
+        }
+      }
+      .conMainWallet {
+        width: 190px !important;
+        img {
+          width: 16px !important;
+          height: 16px !important;
+        }
+      }
+    }
+  }
+  .contentBox {
+    padding-bottom: 20px !important;
+  }
+  .notification {
+    padding: 0 12px;
+    .token {
+      font-size: 14px;
+      span {
+        font-size: 10px;
+      }
+    }
+    &-item {
+      width: 100%;
+      &-img {
+        width: 36px;
+        height: 36px;
+        margin-right: 10px;
+        .avatar {
+          width: 36px;
+          height: 36px;
+        }
+        .typeImg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      &-info {
+        width: calc(100% - 46px);
+        .portfolio {
+          font-size: 12px;
+          margin-top: 0 !important;
+          .decimalBox {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+  .commHeader {
+    padding: 16px !important;
+    .iconfont {
+      // font-size: 12px !important;
+    }
+    .backIcon {
+      margin-bottom: 16px !important;
+    }
+    &-info {
+      flex-wrap: wrap;
+      &-right {
+        width: 100%;
+        padding-left: 0;
+      }
+      &-left {
+        border-right: none;
+        border-bottom: 1px solid rgba(104, 218, 164, 0.2);
+        padding-bottom: 17px;
+        .cil-avatar .avatar {
+          width: 40px;
+          height: 40px;
+          margin-right: 8px !important;
+        }
+        .cil-title h6 {
+          font-size: 16px;
+        }
+        .cil-list-item:nth-child(1) {
+          width: 38% !important;
+        }
+        .cil-list-item:nth-child(2) {
+          width: 35% !important;
+        }
+        .cil-list-item:nth-child(3) {
+          width: 27% !important;
+        }
+      }
+      .leftBox {
+        width: 55% !important;
+        .cir-left-top {
+          width: 50% !important;
+        }
+        .marginLeft,
+        .itemWidth {
+          width: 50% !important;
+        }
+      }
+      .cir-right {
+        width: 45% !important;
+      }
+      .cil-list {
+        margin-top: 17px;
+      }
+      .cil-list-item-imgBox span {
+        font-size: 12px;
+        margin-left: 9px;
+      }
+      .cil-list-item {
+        // width: 30% !important;
+        margin-right: 0 !important;
+        p {
+          font-size: 14px;
+          margin-top: 7px !important;
+        }
+        &-imgBox {
+          margin-bottom: 0;
+        }
+      }
+
+      .cir-left-top {
+        width: 80px !important;
+        margin-right: 0px;
+        padding-top: 16px;
+        margin-bottom: 10px;
+        p {
+          font-size: 12px;
+        }
+        div {
+          font-size: 16px !important;
+          line-height: 26px;
+          margin-top: 5px !important;
+        }
+      }
+      .itemWidth {
+        width: 80px !important;
+      }
+      .marginLeft {
+        width: 80px;
+        margin-left: 0;
+      }
+
+      .cir-right {
+        width: calc(100% - 137px);
+        .marketKeys {
+          width: 100% !important;
+        }
+        .bsubButton {
+          width: 100% !important;
+          height: 28px !important;
+          border-radius: 4px !important;
+          font-size: 12px;
+          color: #000300;
+          line-height: 28px;
+          margin-top: 15px !important;
+        }
+      }
+    }
+  }
+  .myInfo-balance {
+    padding: 16px;
+    .dataWallets-name {
+      font-size: 16px !important;
+      line-height: 19px !important;
+    }
+    .wallet {
+      font-size: 14px;
+    }
+    .dataWallets-list {
+      display: flex !important;
+    }
+    .itemBox {
+      width: calc(50% - 10px);
+    }
+    .itemBox:nth-child(2n) {
+      margin-right: 0;
+      width: 50% !important;
+    }
+    .connected .walletInfo {
+      line-height: 29px !important;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 0 4px !important;
+      margin-right: 0 !important;
+      img {
+        width: 20px !important;
+      }
+      span {
+        font-size: 10px !important;
+        margin-right: 10px !important;
+      }
+      .connectSpan {
+        font-size: 10px !important;
+      }
+    }
+    .connectInfo {
+      margin-right: 0 !important;
+      padding: 10px 5px !important;
+      margin-bottom: 8px !important;
+      .typeTitle {
+        margin-bottom: 10px;
+        margin-top: 5px !important;
+        font-size: 12px !important;
+      }
+      img {
+        width: 38px !important;
+        height: 38px !important;
+      }
+    }
+    .connectBox {
+      width: 100% !important;
+      height: 28px !important;
+      font-size: 12px !important;
+    }
+  }
+  .myInfo {
+    padding: 0 16px 41px !important;
+    .avatarBox {
+      width: 39px;
+      height: 39px;
+      margin-right: 5px;
+    }
+    &-btn-cp {
+      padding: 16px 0 !important;
+    }
+    .myInfo-top-left .mtl-title {
+      div {
+        h6 {
+          margin-top: -6px !important;
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+    }
+    &-balance-list {
+      flex-wrap: wrap;
+      .connectInfo {
+        width: 100% !important;
+      }
+      .connectInfo:nth-child(2n) {
+        margin-right: 0;
+      }
+      .connected {
+        margin-top: 8px !important;
+      }
+    }
+    &-top {
+      display: block !important;
+      margin-top: 24px;
+      .TelegramBox {
+        background-color: #111e1e !important;
+        padding: 24px 16px;
+        border-radius: 8px;
+        text-align: left;
+        margin-top: 14px;
+        p {
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+      .TelegramBox-btn.ant-btn-default {
+        width: 100% !important;
+        background-color: #c9fdd9 !important;
+        font-size: 18px;
+        color: #000000 !important;
+        i {
+          color: #111e1e !important;
+        }
+      }
+    }
+    .pointsBox {
+      // width: 115px;
+      margin-top: 5px;
+      height: 22px !important;
+      border-radius: 12px !important;
+      line-height: 19px !important;
+      padding: 0 6px !important;
+      img {
+        width: 12px !important;
+        height: 12px !important;
+        margin-top: 1px !important;
+      }
+      span {
+        font-size: 12px !important;
+        line-height: 19px;
+        margin: 0 4px !important;
+      }
+    }
+    &-balance {
+      &-list {
+        display: block !important;
+        &-item {
+          width: 100% !important;
+          margin-bottom: 16px !important;
+          padding: 8px !important;
+          .title {
+            font-size: 14px !important;
+          }
+          .eth {
+            font-size: 18px !important;
+            span {
+              font-size: 12px !important;
+            }
+          }
+        }
+        &-item:last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+      .mainWallet {
+        font-size: 16px !important;
+        p {
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+      .moneyBox {
+        font-size: 18px !important;
+        line-height: 21px !important;
+      }
+      .totalBalance {
+        margin-bottom: 8px !important;
+        line-height: 16px !important;
+      }
+    }
+  }
+  .connectTg {
+    height: 22px !important;
+    margin-top: 5px !important;
+    font-size: 12px !important;
+    img {
+      height: 10px !important;
+      // margin-top: 2px !important;
+    }
+  }
+  .keysInfo {
+    display: block !important;
+    padding: 0 7px !important;
+    background-color: #111e1e !important;
+    border-radius: 8px !important;
+    .keysBox {
+      display: flex;
+      width: 100% !important;
+      margin-bottom: 0 !important;
+      border-bottom-left-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+      padding: 16px 0 !important;
+      border-bottom: 1px solid rgba(104, 218, 164, 0.2) !important;
+      &-item {
+        width: 33%;
+        p {
+          font-size: 12px !important;
+        }
+        .iconFontTwo {
+          font-size: 10px;
+          margin-right: 6px !important;
+        }
+        h1 {
+          font-size: 16px;
+          margin: 0 !important;
+        }
+      }
+    }
+    .keysTable {
+      width: 100% !important;
+      padding: 0 !important;
+      margin-top: 0 !important;
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+      .ant-table-wrapper .ant-table-cell,
+      .ant-table-wrapper .ant-table-thead > tr > th,
+      .ant-table-wrapper .ant-table-tbody > tr > th,
+      .ant-table-wrapper .ant-table-tbody > tr > td,
+      .ant-table-wrapper tfoot > tr > th,
+      .ant-table-wrapper tfoot > tr > td {
+        padding: 12px 0 !important;
+      }
+      .ant-table-wrapper .ant-table-tbody > tr > td {
+        text-align: right !important;
+        padding-right: 15px !important;
+      }
+      .ant-table-wrapper .ant-table-tbody > tr > td:first-child {
+        text-align: left !important;
+      }
+    }
+    .myInfo-btn-cp {
+      padding: 17px 0 !important;
+    }
+  }
+  .myPortfoLioDiv {
+    padding: 0 16px 70px !important;
+  }
+  .myWatchimg-table,
+  .keysTable {
+    overflow-x: auto !important;
+    .ant-table-header {
+      overflow-x: auto !important;
+    }
+  }
+  .ant-table-wrapper .ant-table-thead > tr > th,
+  .ant-table-wrapper .ant-table-thead > tr > td {
+    font-size: 12px !important;
+    padding: 16px 0 8px 8px !important;
+    color: rgba(187, 255, 214, 0.6);
+  }
+  .myWatchimg-table .ant-table-wrapper {
+    max-width: 800px !important;
+    width: 800px !important;
+  }
+  .myPortfoLio-form {
+    padding: 24px 16px !important;
+    .titleBox {
+      display: block !important;
+      .title {
+        font-size: 16px !important;
+      }
+    }
+    .chartDiv {
+      height: 236px !important;
+      .chartBox {
+        height: 100% !important;
+        div {
+          // height: 100% !important;
+          canvas {
+            // height: 100% !important;
+          }
+        }
+      }
+    }
+  }
+  .myPortfoLio .titleBox-right div {
+    padding: 13px 11px !important;
+    margin-top: 16px !important;
+  }
+
+  .ant-modal-root .ant-modal-centered {
+    overflow: hidden !important;
+    .modalTitle img {
+      height: 17px !important;
+    }
+    .ant-modal-content {
+      padding: 16px !important;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100% !important;
+    }
+    .totalModal .ant-modal-content {
+      height: 80% !important;
+      overflow-y: auto !important;
+    }
+    .ant-modal {
+      width: 100% !important;
+      max-width: 100% !important;
+      position: absolute !important;
+      left: 0 !important;
+      bottom: -8px !important;
+    }
+    .promptModal {
+      width: 246px !important;
+      left: calc((100% - 246px) / 2) !important;
+      bottom: calc((100% - 246px) / 2) !important;
+      .animationBox {
+        margin: 10px 0 !important;
+        img {
+          height: 44px !important;
+        }
+        p {
+          font-size: 14px !important;
+        }
+      }
+    }
+    .logoModal.ant-modal {
+      .content {
+        font-size: 16px !important;
+        margin: 24px 0 !important;
+      }
+    }
+    .keysListModal.ant-modal {
+      .keysList {
+        padding: 0 0 20px !important;
+        &-item {
+          width: 158px !important;
+          margin-right: 24px !important;
+          &-imgBox {
+            height: 173px !important;
+          }
+        }
+        &-item:nth-child(2n) {
+          margin-right: 0 !important;
+        }
+      }
+    }
+    .wrapper-modal.ant-modal {
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+    }
+    .buyKeysModal.ant-modal {
+      position: fixed;
+      left: 0;
+      .userInfo-item {
+        h6 {
+          font-size: 16px !important;
+          line-height: 20px !important;
+        }
+        p {
+          font-size: 12px !important;
+          margin-top: 6px !important;
+          line-height: 15px !important;
+        }
+      }
+    }
+    .traderBox {
+      display: block;
+      &-left {
+        margin: auto !important;
+      }
+      &-right {
+        width: 100% !important;
+        margin-left: 0 !important;
+        &-money {
+          margin: 8px 0 !important;
+        }
+      }
+    }
+    .keyPrice-box {
+      &-item {
+        margin-bottom: 10px !important;
+        font-size: 12px !important;
+      }
+    }
+  }
+  .ant-tooltip {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .chat-page {
+    height: 600px !important;
+    .emotion-box {
+      width: calc(100% - 10px) !important;
+      &-scroll {
+        height: 224px !important;
+      }
+    }
+    .chat-msg-item
+      .chat-msg-normal
+      .chat-msg-content
+      .chat-msg-bottom
+      .chat-msg-image
+      .send-image {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+  button.select-token img {
+    width: 22px !important;
+    height: 22px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1565px) {
+  .commHeader {
+    &-info-left {
+      width: 325px !important;
+      .cil-avatar {
+        .avatar {
+          width: 60px !important;
+          height: 60px !important;
+        }
+      }
+      .cil-title h6 {
+        font-size: 30px !important;
+      }
+    }
+    &-info-right {
+      padding-left: 20px !important;
+    }
+    .commHeader-info {
+      .cil-list-item-imgBox span {
+        font-size: 14px !important;
+      }
+      .cil-list-item p {
+        font-size: 18px !important;
+      }
+      .cil-list .nameItem {
+        margin-right: 16px !important;
+      }
+    }
+    .cir-left-top {
+      margin-right: 10px !important;
+      p {
+        font-size: 14px !important;
+      }
+      div {
+        font-size: 22px !important;
+      }
+    }
+    .marginLeft {
+      margin-left: 10px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+}
+
+@media only screen and (max-width: 414px) {
+}
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}

@@ -1,0 +1,97 @@
+.trader-list{
+  background: #111e1e;
+  // margin-top: 20px;
+  border-radius: 8px;
+  &-item{
+    padding: 16px 16px 0;
+    border-bottom: 1px solid rgba(104, 218, 164, 0.20);
+    &-type{
+      text-align: left;
+      display: flex;
+      // margin-bottom: 12px;
+      align-items: center;
+      img{
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+      }
+      span{
+        color: var(--Text-Color-, #C9FDD9);
+        /* Body/M Bold */
+        font-family: Work Sans, Work Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px; /* 142.857% */
+        letter-spacing: 0.1px;
+        margin-left: 4px;
+      }
+    }
+    &-data{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .tlid{
+        width: 21%;
+        margin: 0 0 16px;
+        h6{
+          color: var(--Text-Color-Text-3, rgba(201, 253, 217, 0.60));
+          font-family: "Kumbh Sans";
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        p{
+          color: var(--Text-Color-Text-2, #C9FDD9);
+          font-family: "Kumbh Sans";
+          font-size: 12px;
+          font-style: normal; 
+          font-weight: 400;
+          line-height: normal;
+          line-height: 22px;
+        }
+        img{
+          width: 22px;
+          height: 22px;
+          border-radius: 50%;
+          margin-top: 1px;
+        }
+      }
+      .tlid-roi{
+        p{
+          color: var(--Status-Color-Error, #FF4D00);
+        }
+      }
+      .tlid-pnl{
+        p{
+          color: var(--Status-Color-Success, #19D076);
+        }
+      }
+      .tlid:first-child{
+        width: 15%;
+        text-align: left;
+        padding-top: 5px !important;
+      }
+      .tlid:nth-child(2){
+        width: 18%;       
+      }
+      .tlid:nth-child(5){
+        width: 25%;
+        text-align: right;        
+      }
+      .tlid:nth-child(6){
+        width: 30%;
+        text-align: left;
+      }
+      .tlid:nth-child(7){
+        width: 30%;
+      }
+      .tlid:last-child{
+        width: 40%;
+        text-align: right;
+      }
+    }
+  }
+}

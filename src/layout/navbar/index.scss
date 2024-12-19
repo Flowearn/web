@@ -1,0 +1,109 @@
+.ant-layout .ant-layout-sider {
+  position: absolute;
+  width: 300px !important;
+  height: 100% !important;
+  // height: calc(100% - 110px);
+  // top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.2s;
+  max-width: 300px !important;
+  min-width: 300px !important;
+  background: #111e1e !important;
+  text-align: left;
+  // min-height: 60%;
+}
+.ant-menu-inline {
+  background: #111e1e !important;
+  padding-right: 37px !important;
+}
+.footer-left {
+  width: 100% !important;
+  position: absolute;
+  bottom: 73px;
+}
+.saderBox {
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  &-list {
+    padding: 0 20px;
+    &-item {
+      display: flex;
+      padding: 0 24px;
+      font-size: 14px;
+      font-family: Kumbh Sans, Kumbh Sans;
+      font-weight: 500;
+      color: #c9fdd9;
+      line-height: 19px;
+      margin-bottom: 39px;
+      cursor: pointer;
+      .anticon svg {
+        font-size: 18px;
+        margin-right: 10px;
+      }
+      a {
+        font-size: 16px;
+        font-family: Kumbh Sans, Kumbh Sans;
+        font-weight: 500;
+        color: #c9fdd9;
+        line-height: 19px;
+      }
+    }
+  }
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title
+  > .ant-menu-title-content {
+  // color: rgb(75, 92, 107);
+  // font-weight: bold;
+  font-size: 16px;
+  color: #c9fdd9 !important;
+}
+.siderBar {
+  .iconX {
+    width: 19px;
+    height: 17px;
+    margin-right: 11px;
+  }
+}
+
+.ant-layout .ant-layout-sider-children {
+  background-color: #111e1e;
+}
+
+.ant-menu-inline .ant-menu-item {
+  height: 48px !important;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item {
+  padding: 0 24px !important;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title
+  > .ant-menu-title-content {
+  margin-left: 0 !important;
+  padding-left: 13px !important;
+}
+
+.ant-menu .ant-menu-item .anticon.ant-menu-item-icon svg,
+.ant-menu .ant-menu-submenu-title .anticon.ant-menu-item-icon svg {
+  font-size: 18px;
+  color: #c9fdd9 !important;
+}
+
+.saderBox .ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon svg {
+  color: #152121 !important;
+}
+.ant-menu-item {
+  background-color: transparent !important;
+}
+
+.ant-menu-item {
+  margin-bottom: 4px !important;
+}
